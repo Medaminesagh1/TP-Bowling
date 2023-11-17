@@ -11,7 +11,7 @@ import java.util.List;
 public class PartieMonoJoueur {
 
 	public static final int NB_QUILLES = 10;
-	public static final int NB_TOURS = 10;
+	public static final int NB_TOURS = 10; 
 	private int numTour = 1;
 	private List<Tour> partie = new ArrayList<>();
 
