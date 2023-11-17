@@ -63,9 +63,6 @@ public class PartieMonoJoueur {
 			}
 		}
 		score += partie.get(NB_TOURS-1).getNbQuilleTombeesLancer1() + partie.get(NB_TOURS-1).getNbQuilleTombeesLancer2() + partie.get(NB_TOURS-1).getNbQuilleTombeesLancer3();
-		System.out.println(partie.get(NB_TOURS-1).getNbQuilleTombeesLancer1() + partie.get(NB_TOURS-1).getNbQuilleTombeesLancer2() + partie.get(NB_TOURS-1).getNbQuilleTombeesLancer3());
-		System.out.println("lancer 1 " + partie.get(NB_TOURS-1).getNbQuilleTombeesLancer1());
-		System.out.println("lancer 2 " + partie.get(NB_TOURS-1).getNbQuilleTombeesLancer2());
 		return score;
 	}
 
